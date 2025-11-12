@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "titulo": "Atividade prática",
+    "enunciado": "Essa atividade está se baseando na atividade prática que vocês tiverem semana passada",
+    "id_turma": 1,
+    "data_criacao": "09/11/2025",
+    "data_expiracao": "20/11/2025",
+    "questoes": [
+      {
+        "texto": "A gente falou sobre Linguagem C?",
+        "alternativas": ["Sim", "Não"],
+        "resposta_correta": "A"
+      },
+      {
+        "texto": "A gente falou sobre Java?",
+        "alternativas": ["Sim", "Não"],
+        "resposta_correta": "B"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Exercícios de Lógica de Programação",
+    "enunciado": "Resolver problemas básicos de lógica usando pseudocódigo",
+    "id_turma": 1,
+    "data_criacao": "10/11/2025",
+    "data_expiracao": "22/11/2025",
+    "questoes": [
+      {
+        "texto": "Qual é a estrutura de repetição mais adequada para um número conhecido de iterações?",
+        "alternativas": ["For", "While", "Do-While", "Switch"],
+        "resposta_correta": "A"
+      },
+      {
+        "texto": "Qual operador é usado para decisão condicional em C?",
+        "alternativas": ["if-else", "switch", "for", "A e B estão corretas"],
+        "resposta_correta": "D"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Projeto - Sistema de Gerenciamento",
+    "enunciado": "Desenvolver um pequeno sistema de gerenciamento de dados em C",
+    "id_turma": 2,
+    "data_criacao": "08/11/2025",
+    "data_expiracao": "30/11/2025",
+    "questoes": [
+      {
+        "texto": "Qual é a principal vantagem de usar struct em C?",
+        "alternativas": ["Organizar dados relacionados", "Aumentar velocidade", "Reduzir memória", "Facilitar compilação"],
+        "resposta_correta": "A"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Entendimento de Ponteiros",
+    "enunciado": "Compreender conceitos fundamentais sobre ponteiros em C",
+    "id_turma": 1,
+    "data_criacao": "11/11/2025",
+    "data_expiracao": "25/11/2025",
+    "questoes": [
+      {
+        "texto": "O que representa o símbolo * quando declarado antes de uma variável?",
+        "alternativas": ["Multiplicação", "Ponteiro", "Desreferenciação", "B e C estão corretas"],
+        "resposta_correta": "D"
+      },
+      {
+        "texto": "Qual é o operador de endereço em C?",
+        "alternativas": ["&", "*", "->", "::"],
+        "resposta_correta": "A"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Arrays e Matrizes",
+    "enunciado": "Trabalhar com arrays unidimensionais e matrizes bidimensionais",
+    "id_turma": 3,
+    "data_criacao": "09/11/2025",
+    "data_expiracao": "23/11/2025",
+    "questoes": [
+      {
+        "texto": "Como acessar o primeiro elemento de um array?",
+        "alternativas": ["array[1]", "array[0]", "array[-1]", "array.first()"],
+        "resposta_correta": "B"
+      }
+    ]
+  }
+]

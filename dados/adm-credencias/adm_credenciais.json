@@ -1,0 +1,93 @@
+{
+  "administradores": [
+    {
+      "id": 1,
+      "ra": "1",
+      "nome": "Carlos Silva",
+      "email": "carlos.silva@empresa.com",
+      "senha": "Admin@2024#CS",
+      "cargo": "Administrador Master",
+      "departamento": "TI",
+      "ultimo_acesso": "2024-11-07T10:30:00Z",
+      "ativo": true
+    },
+    {
+      "id": 2,
+      "ra": "2",
+      "nome": "Ana Rodrigues",
+      "email": "ana.rodrigues@empresa.com",
+      "senha": "SecureP@ss789!",
+      "cargo": "Administradora de Sistema",
+      "departamento": "TI",
+      "ultimo_acesso": "2024-11-07T09:15:00Z",
+      "ativo": true
+    },
+    {
+      "id": 3,
+      "ra": "3",
+      "nome": "Roberto Oliveira",
+      "email": "roberto.oliveira@empresa.com",
+      "senha": "R0b3rt0@Admin",
+      "cargo": "Administrador de Rede",
+      "departamento": "Infraestrutura",
+      "ultimo_acesso": "2024-11-06T16:45:00Z",
+      "ativo": true
+    },
+    {
+      "id": 4,
+      "ra": "4",
+      "nome": "Mariana Costa",
+      "email": "mariana.costa@empresa.com",
+      "senha": "M@ri2024Secure",
+      "cargo": "Administradora de Banco de Dados",
+      "departamento": "TI",
+      "ultimo_acesso": "2024-11-07T08:00:00Z",
+      "ativo": true
+    },
+    {
+      "id": 5,
+      "ra": "5",
+      "nome": "Paulo Santos",
+      "email": "paulo.santos@empresa.com",
+      "senha": "P@ul0#Admin99",
+      "cargo": "Administrador de Segurança",
+      "departamento": "Segurança da Informação",
+      "ultimo_acesso": "2024-11-07T11:20:00Z",
+      "ativo": true
+    },
+    {
+      "id": 6,
+      "ra": "6",
+      "nome": "Juliana Ferreira",
+      "email": "juliana.ferreira@empresa.com",
+      "senha": "Juli@na2024!Adm",
+      "cargo": "Administradora de Aplicações",
+      "departamento": "TI",
+      "ultimo_acesso": "2024-11-05T14:30:00Z",
+      "ativo": false
+    },
+    {
+      "id": 7,
+      "ra": "7",
+      "nome": "Felipe Almeida",
+      "email": "felipe.almeida@empresa.com",
+      "senha": "F3l1p3@Secure",
+      "cargo": "Administrador Cloud",
+      "departamento": "Infraestrutura",
+      "ultimo_acesso": "2024-11-07T07:45:00Z",
+      "ativo": true
+    },
+    {
+      "id": 8,
+      "ra": "8",
+      "nome": "Beatriz Lima",
+      "email": "beatriz.lima@empresa.com",
+      "senha": "B1@Lim@Admin",
+      "cargo": "Administradora de Compliance",
+      "departamento": "Compliance",
+      "ultimo_acesso": "2024-11-07T10:00:00Z",
+      "ativo": true
+    }
+  ],
+  "nota": "Estes são dados fictícios para uso em ambientes de desenvolvimento e testes. Nunca use senhas simples ou previsíveis em ambientes de produção."
+}

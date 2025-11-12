@@ -1,0 +1,178 @@
+[
+  {
+    "ra": "3123131",
+    "nome": "Rivaldo",
+    "turma": "1 ano, Engenharia de Software",
+    "notas": {
+      "programacao_c": 8.2,
+      "matematica": 8.0,
+      "estrutura_dados": 7.8,
+      "web": 8.5
+    },
+    "frequencia": 85.0,
+    "risco_evasao": "baixo",
+    "atividades_concluidas": 6,
+    "atividades_pendentes": 2,
+    "media_atividades": 8.13
+  },
+  {
+    "ra": "12345656",
+    "nome": "Felipe Duarte Almeida",
+    "turma": "2 ano, Análise e Desenvolvimento de Sistemas",
+    "notas": {
+      "banco_dados": 6.8,
+      "programacao_java": 6.5,
+      "web_avancado": 7.0,
+      "mobile": 7.5
+    },
+    "frequencia": 92.0,
+    "risco_evasao": "medio",
+    "atividades_concluidas": 8,
+    "atividades_pendentes": 3,
+    "media_atividades": 7.0
+  },
+  {
+    "ra": "2024001",
+    "nome": "Ana Silva Santos",
+    "turma": "1 ano, Engenharia de Software",
+    "notas": {
+      "programacao_c": 9.2,
+      "matematica": 9.0,
+      "estrutura_dados": 9.5,
+      "web": 8.8
+    },
+    "frequencia": 95.0,
+    "risco_evasao": "baixo",
+    "atividades_concluidas": 10,
+    "atividades_pendentes": 0,
+    "media_atividades": 9.13
+  },
+  {
+    "ra": "2024002",
+    "nome": "Carlos Alberto Costa",
+    "turma": "1 ano, Gestão de Tecnologia da Informação",
+    "notas": {
+      "gestao_projetos": 5.0,
+      "it_governance": 5.2,
+      "sistemas": 5.1,
+      "redes": 4.8
+    },
+    "frequencia": 65.0,
+    "risco_evasao": "alto",
+    "atividades_concluidas": 1,
+    "atividades_pendentes": 7,
+    "media_atividades": 5.03
+  },
+  {
+    "ra": "2024003",
+    "nome": "Marina Costa Oliveira",
+    "turma": "2 ano, Análise e Desenvolvimento de Sistemas",
+    "notas": {
+      "banco_dados": 8.7,
+      "programacao_java": 8.5,
+      "web_avancado": 8.8,
+      "mobile": 8.4
+    },
+    "frequencia": 90.0,
+    "risco_evasao": "baixo",
+    "atividades_concluidas": 9,
+    "atividades_pendentes": 1,
+    "media_atividades": 8.60
+  },
+  {
+    "ra": "2024004",
+    "nome": "Bruno Henrique Silva",
+    "turma": "1 ano, Engenharia de Software",
+    "notas": {
+      "programacao_c": 7.5,
+      "matematica": 7.8,
+      "estrutura_dados": 7.2,
+      "web": 7.6
+    },
+    "frequencia": 88.0,
+    "risco_evasao": "baixo",
+    "atividades_concluidas": 7,
+    "atividades_pendentes": 2,
+    "media_atividades": 7.53
+  },
+  {
+    "ra": "2024005",
+    "nome": "Isabela Rocha Santos",
+    "turma": "2 ano, Engenharia de Dados",
+    "notas": {
+      "python_avancado": 8.9,
+      "machine_learning": 8.7,
+      "big_data": 8.8,
+      "sql": 8.5
+    },
+    "frequencia": 91.0,
+    "risco_evasao": "baixo",
+    "atividades_concluidas": 9,
+    "atividades_pendentes": 0,
+    "media_atividades": 8.73
+  },
+  {
+    "ra": "2024006",
+    "nome": "Gabriel Pereira Luz",
+    "turma": "1 ano, Gestão de Tecnologia da Informação",
+    "notas": {
+      "gestao_projetos": 6.5,
+      "it_governance": 6.8,
+      "sistemas": 6.3,
+      "redes": 6.2
+    },
+    "frequencia": 82.0,
+    "risco_evasao": "medio",
+    "atividades_concluidas": 4,
+    "atividades_pendentes": 4,
+    "media_atividades": 6.45
+  },
+  {
+    "ra": "2024007",
+    "nome": "Juliana Martins Ferreira",
+    "turma": "2 ano, Análise e Desenvolvimento de Sistemas",
+    "notas": {
+      "banco_dados": 7.9,
+      "programacao_java": 7.8,
+      "web_avancado": 7.7,
+      "mobile": 7.8
+    },
+    "frequencia": 87.0,
+    "risco_evasao": "baixo",
+    "atividades_concluidas": 8,
+    "atividades_pendentes": 1,
+    "media_atividades": 7.80
+  },
+  {
+    "ra": "2024008",
+    "nome": "Lucas Campos Miranda",
+    "turma": "1 ano, Pós-Graduação em IA",
+    "notas": {
+      "deep_learning": 7.3,
+      "nlp": 7.1,
+      "computer_vision": 7.0,
+      "ml_ops": 7.4
+    },
+    "frequencia": 80.0,
+    "risco_evasao": "medio",
+    "atividades_concluidas": 5,
+    "atividades_pendentes": 3,
+    "media_atividades": 7.20
+  },
+  {
+    "ra": "2024009",
+    "nome": "Sofia Alves Mendes",
+    "turma": "2 ano, Engenharia de Dados",
+    "notas": {
+      "python_avancado": 8.95,
+      "machine_learning": 9.0,
+      "big_data": 8.9,
+      "sql": 8.8
+    },
+    "frequencia": 93.0,
+    "risco_evasao": "baixo",
+    "atividades_concluidas": 10,
+    "atividades_pendentes": 0,
+    "media_atividades": 8.94
+  }
+]

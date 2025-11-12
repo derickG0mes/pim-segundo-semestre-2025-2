@@ -1,0 +1,196 @@
+{
+  "timestamp": "2025-11-12T00:13:31.720925",
+  "metricas_gerais": {
+    "total_alunos": 5,
+    "media_geral": 6.89,
+    "taxa_frequencia": 82.2,
+    "risco_evasao": 40.0,
+    "periodo": "atual",
+    "timestamp": "2025-11-12T00:13:31.719385"
+  },
+  "alertas": [
+    {
+      "tipo": "critico",
+      "titulo": "Alto Risco de Evasão",
+      "descricao": "2 alunos identificados com padrão de risco elevado",
+      "prioridade": 1,
+      "alunos_afetados": [
+        "002",
+        "005"
+      ],
+      "timestamp": "2025-11-12T00:13:31.719652"
+    },
+    {
+      "tipo": "atencao",
+      "titulo": "Frequência Crítica",
+      "descricao": "2 alunos com frequência abaixo de 75%",
+      "prioridade": 2,
+      "alunos_afetados": [
+        "002",
+        "005"
+      ],
+      "timestamp": "2025-11-12T00:13:31.719652"
+    },
+    {
+      "tipo": "atencao",
+      "titulo": "Queda de Desempenho",
+      "descricao": "Disciplinas com média abaixo de 7.0: matematica, ciencias",
+      "prioridade": 2,
+      "alunos_afetados": [],
+      "timestamp": "2025-11-12T00:13:31.719652"
+    }
+  ],
+  "analise_ia": {
+    "resumo_executivo": "O sistema apresenta desempenho adequado, mas requer melhorias (média 6.89).",
+    "status": "ADEQUADO",
+    "tendencias": [],
+    "pontos_criticos": [
+      "Alto risco de evasão (40.0%)",
+      "Média geral abaixo do esperado (6.89)"
+    ],
+    "pontos_positivos": [],
+    "previsoes": [
+      "Manutenção do nível atual esperado",
+      "Recomenda-se intervenção focada em alunos em risco"
+    ],
+    "modo": "Análise Inteligente Local (sem IA)"
+  },
+  "recomendacoes": [
+    {
+      "titulo": "Programa de Acompanhamento para Alunos em Risco",
+      "descricao": "Implementar programa intensivo de mentoria para 3 alunos identificados em risco de evasão",
+      "categoria": "comportamental",
+      "impacto_estimado": "alto",
+      "acoes": [
+        "Criar parecer de acompanhamento individual",
+        "Aumentar frequência de reuniões com responsáveis",
+        "Oferecer apoio psicossocial"
+      ],
+      "prioridade": 1
+    },
+    {
+      "titulo": "Reforço em Disciplinas com Baixo Desempenho",
+      "descricao": "Implementar atividades de reforço em: matematica, ciencias",
+      "categoria": "academico",
+      "impacto_estimado": "alto",
+      "acoes": [
+        "Aulas de reforço extras",
+        "Tutoria entre pares",
+        "Revisão de metodologia de ensino"
+      ],
+      "prioridade": 2
+    },
+    {
+      "titulo": "Programa de Combate à Absenteísmo",
+      "descricao": "2 alunos com frequência inferior a 75%",
+      "categoria": "comportamental",
+      "impacto_estimado": "medio",
+      "acoes": [
+        "Comunicação com familiares",
+        "Investigação de causas de ausência",
+        "Planejamento de recuperação"
+      ],
+      "prioridade": 3
+    },
+    {
+      "titulo": "Monitoramento Contínuo de Indicadores",
+      "descricao": "Implementar sistema de monitoramento em tempo real dos indicadores educacionais",
+      "categoria": "estrutural",
+      "impacto_estimado": "medio",
+      "acoes": [
+        "Dashboard de acompanhamento",
+        "Relatórios periódicos",
+        "Alertas automatizados"
+      ],
+      "prioridade": 4
+    },
+    {
+      "titulo": "Estratégia de Melhoria Contínua",
+      "descricao": "Desenvolver plano de ação para incrementar qualidade educacional",
+      "categoria": "estrutural",
+      "impacto_estimado": "medio",
+      "acoes": [
+        "Análise periódica de resultados",
+        "Feedback de stakeholders",
+        "Ajustes metodológicos"
+      ],
+      "prioridade": 5
+    }
+  ],
+  "analise_por_turma": {
+    "3º Ano B": {
+      "turma": "3º Ano B",
+      "total_alunos": 2,
+      "media_geral": 8.766666666666666,
+      "frequencia_media": 93.5,
+      "media_matematica": 8.75,
+      "media_portugues": 8.850000000000001,
+      "media_ciencias": 8.7
+    },
+    "3º Ano A": {
+      "turma": "3º Ano A",
+      "total_alunos": 3,
+      "media_geral": 5.644444444444445,
+      "frequencia_media": 74.66666666666667,
+      "media_matematica": 5.6000000000000005,
+      "media_portugues": 6.0,
+      "media_ciencias": 5.333333333333333
+    }
+  },
+  "mapa_calor": {
+    "3º Ano B": {
+      "matematica": 8.75,
+      "portugues": 8.850000000000001,
+      "ciencias": 8.7
+    },
+    "3º Ano A": {
+      "matematica": 5.6000000000000005,
+      "portugues": 6.0,
+      "ciencias": 5.333333333333333
+    }
+  },
+  "distribuicao_risco": {
+    "baixo": 40.0,
+    "medio": 20.0,
+    "alto": 40.0
+  },
+  "alunos_atencao": [
+    {
+      "id": "001",
+      "nome": "Bruno Santos",
+      "turma": "3º Ano A",
+      "notas": {
+        "matematica": 6.8,
+        "portugues": 7.2,
+        "ciencias": 6.5
+      },
+      "frequencia": 87.0,
+      "risco_evasao": "medio"
+    },
+    {
+      "id": "002",
+      "nome": "Carlos Lima",
+      "turma": "3º Ano A",
+      "notas": {
+        "matematica": 5.2,
+        "portugues": 5.8,
+        "ciencias": 5.0
+      },
+      "frequencia": 72.0,
+      "risco_evasao": "alto"
+    },
+    {
+      "id": "005",
+      "nome": "Diego Pereira",
+      "turma": "3º Ano A",
+      "notas": {
+        "matematica": 4.8,
+        "portugues": 5.0,
+        "ciencias": 4.5
+      },
+      "frequencia": 65.0,
+      "risco_evasao": "alto"
+    }
+  ],
+  "total_alunos_processados": 5
+}

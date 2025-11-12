@@ -1,0 +1,40 @@
+================================================================================
+RELATÓRIO DE ANÁLISE ESCOLAR
+================================================================================
+
+Data: 2025-11-12T00:21:48.256141
+
+Total de alunos: 5
+
+--- MÉTRICAS GERAIS ---
+Média Geral: 7.38
+Taxa de Frequência: 82.6%
+Risco de Evasão: 20.0%
+
+--- ALERTAS (2) ---
+
+[CRITICO] Alto Risco de Evasão
+  1 alunos identificados com padrão de risco elevado
+
+[ATENCAO] Frequência Crítica
+  1 alunos com frequência abaixo de 75%
+
+--- ANÁLISE IA ---
+
+O sistema apresenta bom desempenho com média geral de 7.38.
+
+--- RECOMENDAÇÕES (4) ---
+
+1. Programa de Acompanhamento para Alunos em Risco
+   Implementar programa intensivo de mentoria para 2 alunos identificados em risco de evasão
+
+2. Programa de Combate à Absenteísmo
+   1 alunos com frequência inferior a 75%
+
+3. Monitoramento Contínuo de Indicadores
+   Implementar sistema de monitoramento em tempo real dos indicadores educacionais
+
+4. Estratégia de Melhoria Contínua
+   Desenvolver plano de ação para incrementar qualidade educacional
+
+================================================================================

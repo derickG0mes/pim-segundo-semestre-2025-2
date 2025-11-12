@@ -1,0 +1,166 @@
+{
+  "timestamp": "2025-11-12T00:21:48.256141",
+  "metricas_gerais": {
+    "total_alunos": 5,
+    "media_geral": 7.38,
+    "taxa_frequencia": 82.6,
+    "risco_evasao": 20.0,
+    "periodo": "atual",
+    "timestamp": "2025-11-12T00:21:48.255135"
+  },
+  "alertas": [
+    {
+      "tipo": "critico",
+      "titulo": "Alto Risco de Evasão",
+      "descricao": "1 alunos identificados com padrão de risco elevado",
+      "prioridade": 1,
+      "alunos_afetados": [
+        "2024002"
+      ],
+      "timestamp": "2025-11-12T00:21:48.255306"
+    },
+    {
+      "tipo": "atencao",
+      "titulo": "Frequência Crítica",
+      "descricao": "1 alunos com frequência abaixo de 75%",
+      "prioridade": 2,
+      "alunos_afetados": [
+        "2024002"
+      ],
+      "timestamp": "2025-11-12T00:21:48.255306"
+    }
+  ],
+  "analise_ia": {
+    "resumo_executivo": "O sistema apresenta bom desempenho com média geral de 7.38.",
+    "status": "BOM",
+    "tendencias": [],
+    "pontos_criticos": [],
+    "pontos_positivos": [
+      "Média geral dentro dos padrões aceitáveis"
+    ],
+    "previsoes": [
+      "Manutenção do nível atual esperado"
+    ],
+    "modo": "Análise Inteligente Local (sem IA)"
+  },
+  "recomendacoes": [
+    {
+      "titulo": "Programa de Acompanhamento para Alunos em Risco",
+      "descricao": "Implementar programa intensivo de mentoria para 2 alunos identificados em risco de evasão",
+      "categoria": "comportamental",
+      "impacto_estimado": "alto",
+      "acoes": [
+        "Criar parecer de acompanhamento individual",
+        "Aumentar frequência de reuniões com responsáveis",
+        "Oferecer apoio psicossocial"
+      ],
+      "prioridade": 1
+    },
+    {
+      "titulo": "Programa de Combate à Absenteísmo",
+      "descricao": "1 alunos com frequência inferior a 75%",
+      "categoria": "comportamental",
+      "impacto_estimado": "medio",
+      "acoes": [
+        "Comunicação com familiares",
+        "Investigação de causas de ausência",
+        "Planejamento de recuperação"
+      ],
+      "prioridade": 3
+    },
+    {
+      "titulo": "Monitoramento Contínuo de Indicadores",
+      "descricao": "Implementar sistema de monitoramento em tempo real dos indicadores educacionais",
+      "categoria": "estrutural",
+      "impacto_estimado": "medio",
+      "acoes": [
+        "Dashboard de acompanhamento",
+        "Relatórios periódicos",
+        "Alertas automatizados"
+      ],
+      "prioridade": 4
+    },
+    {
+      "titulo": "Estratégia de Melhoria Contínua",
+      "descricao": "Desenvolver plano de ação para incrementar qualidade educacional",
+      "categoria": "estrutural",
+      "impacto_estimado": "medio",
+      "acoes": [
+        "Análise periódica de resultados",
+        "Feedback de stakeholders",
+        "Ajustes metodológicos"
+      ],
+      "prioridade": 5
+    }
+  ],
+  "analise_por_turma": {
+    "2 ano, Ensino Superior": {
+      "turma": "2 ano, Ensino Superior",
+      "total_alunos": 2,
+      "media_geral": 7.4125,
+      "frequencia_media": 84.0,
+      "media_matematica": 7.0,
+      "media_portugues": 7.5,
+      "media_ciencias": 7.3,
+      "media_programacao": 7.85
+    },
+    "1 ano, Ensino Superior": {
+      "turma": "1 ano, Ensino Superior",
+      "total_alunos": 3,
+      "media_geral": 7.358333333333333,
+      "frequencia_media": 81.66666666666667,
+      "media_matematica": 7.333333333333333,
+      "media_portugues": 7.266666666666667,
+      "media_ciencias": 7.3999999999999995,
+      "media_programacao": 7.433333333333334
+    }
+  },
+  "mapa_calor": {
+    "2 ano, Ensino Superior": {
+      "matematica": 7.0,
+      "portugues": 7.5,
+      "ciencias": 7.3,
+      "programacao": 7.85
+    },
+    "1 ano, Ensino Superior": {
+      "matematica": 7.333333333333333,
+      "portugues": 7.266666666666667,
+      "ciencias": 7.3999999999999995,
+      "programacao": 7.433333333333334
+    }
+  },
+  "distribuicao_risco": {
+    "baixo": 60.0,
+    "medio": 20.0,
+    "alto": 20.0
+  },
+  "alunos_atencao": [
+    {
+      "id": "12345656",
+      "nome": "Felipe Duarte Almeida",
+      "turma": "2 ano, Ensino Superior",
+      "notas": {
+        "matematica": 6.5,
+        "portugues": 7.0,
+        "ciencias": 6.8,
+        "programacao": 7.5
+      },
+      "frequencia": 78.0,
+      "risco_evasao": "medio"
+    },
+    {
+      "id": "2024002",
+      "nome": "Carlos Alberto",
+      "turma": "1 ano, Ensino Superior",
+      "notas": {
+        "matematica": 5.0,
+        "portugues": 5.5,
+        "ciencias": 5.2,
+        "programacao": 4.8
+      },
+      "frequencia": 65.0,
+      "risco_evasao": "alto"
+    }
+  ],
+  "total_alunos_processados": 5
+}

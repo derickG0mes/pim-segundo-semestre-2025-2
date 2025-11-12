@@ -1,0 +1,251 @@
+[
+  {
+    "usuario": "3123131",
+    "nome": "Rivaldo",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "08:15:30",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "3123131",
+    "nome": "Rivaldo",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Resposta",
+    "data": "2025-11-12",
+    "hora": "08:45:20",
+    "descricao": "Aluno respondeu atividade: Atividade prática com pontuação: 8.0"
+  },
+  {
+    "usuario": "12345656",
+    "nome": "Felipe Duarte Almeida",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "09:30:15",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "12345656",
+    "nome": "Felipe Duarte Almeida",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Resposta",
+    "data": "2025-11-12",
+    "hora": "10:15:45",
+    "descricao": "Aluno respondeu atividade: Exercícios de Lógica com pontuação: 7.5"
+  },
+  {
+    "usuario": "2024001",
+    "nome": "Ana Silva Santos",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "07:50:00",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "2024001",
+    "nome": "Ana Silva Santos",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Resposta",
+    "data": "2025-11-12",
+    "hora": "08:30:20",
+    "descricao": "Aluno respondeu atividade: Entendimento de Ponteiros com pontuação: 9.5"
+  },
+  {
+    "usuario": "2024002",
+    "nome": "Carlos Alberto Costa",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-11",
+    "hora": "15:20:10",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "2024003",
+    "nome": "Marina Costa Oliveira",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "09:05:30",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "2024003",
+    "nome": "Marina Costa Oliveira",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Resposta",
+    "data": "2025-11-12",
+    "hora": "09:45:15",
+    "descricao": "Aluno respondeu atividade: Arrays e Matrizes com pontuação: 8.8"
+  },
+  {
+    "usuario": "201856789",
+    "nome": "André Luiz Costa",
+    "tipo_usuario": "Professor",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "07:00:00",
+    "descricao": "Professor realizou login no sistema"
+  },
+  {
+    "usuario": "201856789",
+    "nome": "André Luiz Costa",
+    "tipo_usuario": "Professor",
+    "tipo_atividade": "Criação",
+    "data": "2025-11-12",
+    "hora": "07:30:45",
+    "descricao": "Professor criou nova atividade: Ponteiros em Linguagem C"
+  },
+  {
+    "usuario": "789012",
+    "nome": "Carlos Eduardo Rocha",
+    "tipo_usuario": "Professor",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "11:00:20",
+    "descricao": "Professor realizou login no sistema"
+  },
+  {
+    "usuario": "789012",
+    "nome": "Carlos Eduardo Rocha",
+    "tipo_usuario": "Professor",
+    "tipo_atividade": "Criação",
+    "data": "2025-11-12",
+    "hora": "11:45:30",
+    "descricao": "Professor criou nova atividade: Estrutura de Dados Avançado"
+  },
+  {
+    "usuario": "345678",
+    "nome": "Mariana Silva Santos",
+    "tipo_usuario": "Professor",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "12:30:00",
+    "descricao": "Professor realizou login no sistema"
+  },
+  {
+    "usuario": "admin",
+    "tipo_usuario": "Admin",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "00:30:15",
+    "descricao": "Admin realizou login no sistema"
+  },
+  {
+    "usuario": "admin",
+    "tipo_usuario": "Admin",
+    "tipo_atividade": "Visualização",
+    "data": "2025-11-12",
+    "hora": "00:35:45",
+    "descricao": "Admin visualizou painel de estatísticas do sistema"
+  },
+  {
+    "usuario": "admin",
+    "tipo_usuario": "Admin",
+    "tipo_atividade": "Backup",
+    "data": "2025-11-12",
+    "hora": "01:00:00",
+    "descricao": "Sistema realizou backup completo de todos os dados"
+  },
+  {
+    "usuario": "2024004",
+    "nome": "Bruno Henrique Silva",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "10:20:30",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "2024005",
+    "nome": "Isabela Rocha Santos",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "13:15:00",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "2024006",
+    "nome": "Gabriel Pereira Luz",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "14:45:20",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "2024007",
+    "nome": "Juliana Martins Ferreira",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "08:00:45",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "2024007",
+    "nome": "Juliana Martins Ferreira",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Resposta",
+    "data": "2025-11-12",
+    "hora": "08:40:15",
+    "descricao": "Aluno respondeu atividade: Projeto - Sistema de Gerenciamento com pontuação: 8.5"
+  },
+  {
+    "usuario": "2024008",
+    "nome": "Lucas Campos Miranda",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "19:30:00",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "2024009",
+    "nome": "Sofia Alves Mendes",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "07:20:30",
+    "descricao": "Aluno realizou login na conta"
+  },
+  {
+    "usuario": "2024009",
+    "nome": "Sofia Alves Mendes",
+    "tipo_usuario": "Aluno",
+    "tipo_atividade": "Resposta",
+    "data": "2025-11-12",
+    "hora": "07:50:45",
+    "descricao": "Aluno respondeu atividade: Análise de Textos Literários com pontuação: 9.0"
+  },
+  {
+    "usuario": "456789",
+    "nome": "João Paulo Mendes",
+    "tipo_usuario": "Professor",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "13:00:20",
+    "descricao": "Professor realizou login no sistema"
+  },
+  {
+    "usuario": "567890",
+    "nome": "Fernanda Costa Oliveira",
+    "tipo_usuario": "Professor",
+    "tipo_atividade": "Login",
+    "data": "2025-11-12",
+    "hora": "14:30:00",
+    "descricao": "Professor realizou login no sistema"
+  },
+  {
+    "usuario": "567890",
+    "nome": "Fernanda Costa Oliveira",
+    "tipo_usuario": "Professor",
+    "tipo_atividade": "Criação",
+    "data": "2025-11-12",
+    "hora": "15:00:30",
+    "descricao": "Professor criou nova atividade: Trabalho em Grupo - Biologia"
+  }
+]

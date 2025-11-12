@@ -1,0 +1,84 @@
+{
+  "1º Ano - Engenharia de Software": [
+    {
+      "nome": "Rivaldo",
+      "ra": "3123131",
+      "desempenho": "Bom"
+    },
+    {
+      "nome": "Ana Silva Santos",
+      "ra": "2024001",
+      "desempenho": "Excelente"
+    },
+    {
+      "nome": "Bruno Henrique Silva",
+      "ra": "2024004",
+      "desempenho": "Bom"
+    },
+    {
+      "nome": "Gabriel Pereira Luz",
+      "ra": "2024006",
+      "desempenho": "Regular"
+    }
+  ],
+  "1º Ano - Análise e Desenvolvimento de Sistemas": [
+    {
+      "nome": "Mariana Silva Santos",
+      "ra": "201",
+      "desempenho": "Excelente"
+    },
+    {
+      "nome": "João Paulo Oliveira",
+      "ra": "202",
+      "desempenho": "Bom"
+    }
+  ],
+  "2º Ano - Análise e Desenvolvimento de Sistemas": [
+    {
+      "nome": "Felipe Duarte Almeida",
+      "ra": "12345656",
+      "desempenho": "Regular"
+    },
+    {
+      "nome": "Marina Costa Oliveira",
+      "ra": "2024003",
+      "desempenho": "Excelente"
+    },
+    {
+      "nome": "Juliana Martins Ferreira",
+      "ra": "2024007",
+      "desempenho": "Bom"
+    }
+  ],
+  "1º Ano - Gestão de Tecnologia da Informação": [
+    {
+      "nome": "Carlos Alberto Costa",
+      "ra": "2024002",
+      "desempenho": "Crítico"
+    },
+    {
+      "nome": "Gabriel Pereira Luz",
+      "ra": "2024006",
+      "desempenho": "Regular"
+    }
+  ],
+  "2º Ano - Engenharia de Dados": [
+    {
+      "nome": "Isabela Rocha Santos",
+      "ra": "2024005",
+      "desempenho": "Excelente"
+    },
+    {
+      "nome": "Sofia Alves Mendes",
+      "ra": "2024009",
+      "desempenho": "Excelente"
+    }
+  ],
+  "1º Ano - Pós-Graduação em IA": [
+    {
+      "nome": "Lucas Campos Miranda",
+      "ra": "2024008",
+      "desempenho": "Bom"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "titulo": "Simulado de Programação em C",
+    "enunciado": "Prova objetiva sobre conceitos fundamentais de linguagem C",
+    "id_turma": 1,
+    "data_criacao": "2025-11-08",
+    "data_expiracao": "2025-11-18",
+    "questoes": [
+      {
+        "texto": "O que é um ponteiro em linguagem C?",
+        "alternativas": [
+          "Uma variável que armazena um endereço de memória",
+          "Uma função que aponta para um valor",
+          "Uma estrutura de dados",
+          "Um tipo de dado primitivo"
+        ],
+        "resposta_correta": "A"
+      },
+      {
+        "texto": "Qual é a sintaxe correta para alocar memória dinamicamente em C?",
+        "alternativas": [
+          "new int(10);",
+          "malloc(sizeof(int) * 10);",
+          "allocate(int, 10);",
+          "create_memory(int, 10);"
+        ],
+        "resposta_correta": "B"
+      },
+      {
+        "texto": "Qual função é utilizada para liberar memória alocada?",
+        "alternativas": [
+          "delete()",
+          "free()",
+          "release()",
+          "deallocate()"
+        ],
+        "resposta_correta": "B"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Prova de Estrutura de Dados",
+    "enunciado": "Avaliação sobre pilhas, filas e listas ligadas",
+    "id_turma": 3,
+    "data_criacao": "2025-11-07",
+    "data_expiracao": "2025-11-17",
+    "questoes": [
+      {
+        "texto": "Qual é a característica principal de uma pilha (stack)?",
+        "alternativas": [
+          "FIFO (First In, First Out)",
+          "LIFO (Last In, First Out)",
+          "Aleatória",
+          "Ordem crescente"
+        ],
+        "resposta_correta": "B"
+      },
+      {
+        "texto": "Em uma fila (queue), qual operação adiciona um elemento?",
+        "alternativas": [
+          "Pop",
+          "Push",
+          "Enqueue",
+          "Dequeue"
+        ],
+        "resposta_correta": "C"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Avaliação - Análise de Algoritmos",
+    "enunciado": "Teste sobre complexidade de tempo e espaço",
+    "id_turma": 2,
+    "data_criacao": "2025-11-09",
+    "data_expiracao": "2025-11-19",
+    "questoes": [
+      {
+        "texto": "Qual é a complexidade de tempo de uma busca binária?",
+        "alternativas": [
+          "O(n)",
+          "O(log n)",
+          "O(n²)",
+          "O(1)"
+        ],
+        "resposta_correta": "B"
+      },
+      {
+        "texto": "O algoritmo de ordenação QuickSort tem complexidade média de:",
+        "alternativas": [
+          "O(n)",
+          "O(n log n)",
+          "O(n²)",
+          "O(2^n)"
+        ],
+        "resposta_correta": "B"
+      },
+      {
+        "texto": "Qual algoritmo é mais eficiente para arrays pequenos?",
+        "alternativas": [
+          "MergeSort",
+          "QuickSort",
+          "InsertionSort",
+          "HeapSort"
+        ],
+        "resposta_correta": "C"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Prova de Web - HTML e CSS",
+    "enunciado": "Avaliação sobre desenvolvimento web front-end",
+    "id_turma": 2,
+    "data_criacao": "2025-11-06",
+    "data_expiracao": "2025-11-16",
+    "questoes": [
+      {
+        "texto": "Qual tag HTML é usada para criar um parágrafo?",
+        "alternativas": [
+          "<par>",
+          "<p>",
+          "<paragraph>",
+          "<text>"
+        ],
+        "resposta_correta": "B"
+      },
+      {
+        "texto": "CSS significa:",
+        "alternativas": [
+          "Computer Style Sheet",
+          "Cascading Style Sheet",
+          "Creative Style Sheet",
+          "Coded Style Sheet"
+        ],
+        "resposta_correta": "B"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Simulado Final - Banco de Dados",
+    "enunciado": "Avaliação sobre SQL e design de banco de dados",
+    "id_turma": 4,
+    "data_criacao": "2025-11-05",
+    "data_expiracao": "2025-11-15",
+    "questoes": [
+      {
+        "texto": "Qual comando SQL é usado para recuperar dados?",
+        "alternativas": [
+          "UPDATE",
+          "SELECT",
+          "INSERT",
+          "DELETE"
+        ],
+        "resposta_correta": "B"
+      },
+      {
+        "texto": "O que é uma chave primária?",
+        "alternativas": [
+          "Um campo que pode ter valores nulos",
+          "Um campo que identifica unicamente cada registro",
+          "Um campo de data",
+          "Um campo de texto"
+        ],
+        "resposta_correta": "B"
+      },
+      {
+        "texto": "Qual é a diferença entre INNER JOIN e LEFT JOIN?",
+        "alternativas": [
+          "Nenhuma diferença",
+          "INNER JOIN retorna apenas registros coincidentes; LEFT JOIN inclui todos os registros da tabela esquerda",
+          "LEFT JOIN é mais rápido",
+          "INNER JOIN é para números, LEFT JOIN para texto"
+        ],
+        "resposta_correta": "B"
+      }
+    ]
+  }
+]

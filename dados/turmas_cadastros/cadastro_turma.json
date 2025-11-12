@@ -1,0 +1,72 @@
+[
+  {
+    "serie_turma": "1A",
+    "professor_responsavel": "André Luiz Costa",
+    "horario": "08:00 - 09:40",
+    "dias_semana": "Segunda, Quarta, Sexta",
+    "sala": "101",
+    "curso": "Engenharia de Software",
+    "processo_letivo": "2025/2",
+    "capacidade": 35
+  },
+  {
+    "serie_turma": "1B",
+    "professor_responsavel": "Mariana Silva Santos",
+    "horario": "09:50 - 11:30",
+    "dias_semana": "Segunda, Quarta, Sexta",
+    "sala": "102",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "processo_letivo": "2025/2",
+    "capacidade": 32
+  },
+  {
+    "serie_turma": "2A",
+    "professor_responsavel": "Carlos Eduardo Rocha",
+    "horario": "12:00 - 13:40",
+    "dias_semana": "Terça, Quinta",
+    "sala": "201",
+    "curso": "Engenharia de Software",
+    "processo_letivo": "2025/2",
+    "capacidade": 30
+  },
+  {
+    "serie_turma": "2B",
+    "professor_responsavel": "João Paulo Mendes",
+    "horario": "13:50 - 15:30",
+    "dias_semana": "Terça, Quinta",
+    "sala": "202",
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "processo_letivo": "2025/2",
+    "capacidade": 28
+  },
+  {
+    "serie_turma": "1C",
+    "professor_responsavel": "Fernanda Costa Oliveira",
+    "horario": "15:40 - 17:20",
+    "dias_semana": "Segunda, Quarta, Sexta",
+    "sala": "103",
+    "curso": "Gestão de Tecnologia da Informação",
+    "processo_letivo": "2025/2",
+    "capacidade": 33
+  },
+  {
+    "serie_turma": "2C",
+    "professor_responsavel": "Roberto Alves Santos",
+    "horario": "07:00 - 08:40",
+    "dias_semana": "Terça, Quinta",
+    "sala": "203",
+    "curso": "Engenharia de Dados",
+    "processo_letivo": "2025/2",
+    "capacidade": 26
+  },
+  {
+    "serie_turma": "1D",
+    "professor_responsavel": "Patricia Gomes Lima",
+    "horario": "19:00 - 20:40",
+    "dias_semana": "Segunda, Quarta",
+    "sala": "104",
+    "curso": "Pós-Graduação em IA",
+    "processo_letivo": "2025/2",
+    "capacidade": 20
+  }
+]
