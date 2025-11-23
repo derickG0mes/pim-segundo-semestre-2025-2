@@ -631,7 +631,9 @@ void menu_painel_administrativo(const char *admin_name) {
                 break;
             
             case 7:
-                menu_painel_inteligente();
+                printf("\n📊 Abrindo Painel Inteligente (IA)...\n");
+                system("python painel_ia.py");
+                pausar();
                 break;
             
             case 0:

@@ -9,6 +9,9 @@
 // Incluir módulo de sincronização automática de JSON
 #include "../ferramentas/auto_sync.c"
 
+// Forward declaration
+void lerEntradaSegura(char *destino, size_t tamanho, const char *mensagem);
+
 // Função para formatar CPF (###.###.###-##)
 void formatarCPF(char *cpf) {
     char cpfFormatado[15];

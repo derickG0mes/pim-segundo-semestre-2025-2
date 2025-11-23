@@ -3,6 +3,9 @@
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
+#ifdef _WIN32
+#include <windows.h>
+#endif
 
 // Incluir módulo de sincronização automática de JSON
 #include "../ferramentas/auto_sync.c"
@@ -62,4 +65,38 @@ int verificar_credenciais(const char *email, const char *senha) {
     printf("Pressione qualquer tecla para continuar...");
     system("pause > nul");
     return 0; // Credenciais inválidas
+}
+
+// ============================================================================
+// FUNÇÃO PRINCIPAL
+// ============================================================================
+int main() {
+    #ifdef _WIN32
+        SetConsoleCP(65001);
+        SetConsoleOutputCP(65001);
+    #endif
+    
+    char email[100];
+    char senha[100];
+    
+    printf("\n========================================\n");
+    printf("   AREA DE LOGIN - ADMINISTRADOR\n");
+    printf("========================================\n\n");
+    
+    printf("Email: ");
+    fgets(email, sizeof(email), stdin);
+    email[strcspn(email, "\n")] = '\0';
+    
+    printf("Senha: ");
+    fgets(senha, sizeof(senha), stdin);
+    senha[strcspn(senha, "\n")] = '\0';
+    
+    if (verificar_credenciais(email, senha)) {
+        printf("\n✓ Login realizado com sucesso!\n");
+        printf("Bem-vindo, Administrador!\n");
+    } else {
+        printf("\n✗ Falha no login. Credenciais inválidas.\n");
+    }
+    
+    return 0;
 }
