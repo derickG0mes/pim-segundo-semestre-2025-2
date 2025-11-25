@@ -9,7 +9,7 @@ import os
 import json
 from datetime import datetime, timedelta
 from typing import Dict, List, Any, Optional
-from openai import OpenAI
+import google.generativeai as genai
 from dataclasses import dataclass, asdict
 from enum import Enum
 
@@ -126,29 +126,29 @@ class Recomendacao:
 
 class AnalisadorIA:
     """
-    Classe responsável pela análise inteligente usando OpenAI
+    Classe responsável pela análise inteligente usando Gemini
     """
     
     def __init__(self, api_key: str):
         """
-        Inicializa o analisador com a chave da API OpenAI
+        Inicializa o analisador com a chave da API Gemini
         
         Args:
-            api_key: Chave da API OpenAI
+            api_key: Chave da API Gemini (Google AI)
         """
         self.api_key = api_key
-        self.client = None
-        self.model = "gpt-3.5-turbo"  # Usando gpt-3.5-turbo (mais acessível que gpt-4)
+        self.model = None
         self.usar_ia = False
         
         # Tentar conectar à API
         if api_key and api_key != "sua-chave-aqui":
             try:
-                self.client = OpenAI(api_key=api_key)
+                genai.configure(api_key=api_key)
+                self.model = genai.GenerativeModel('gemini-2.0-flash')
                 self.usar_ia = True
-                print("✅ Conexão com OpenAI estabelecida!")
+                print("✅ Conexão com Gemini estabelecida!")
             except Exception as e:
-                print(f"⚠️  Não foi possível conectar à OpenAI: {e}")
+                print(f"⚠️  Não foi possível conectar ao Gemini: {e}")
                 print("📊 Usando modo análise inteligente simulada...")
                 self.usar_ia = False
         else:
@@ -167,7 +167,7 @@ class AnalisadorIA:
         Returns:
             Análise detalhada com insights
         """
-        if not self.usar_ia or not self.client:
+        if not self.usar_ia or not self.model:
             return self._analise_inteligente_local(metricas, historico)
             
         prompt = f"""
@@ -193,17 +193,17 @@ class AnalisadorIA:
         """
         
         try:
-            response = self.client.chat.completions.create(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": "Você é um analista educacional especializado que retorna apenas JSON válido."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.7,
-                max_tokens=1000
-            )
+            response = self.model.generate_content(prompt)
+            # Limpar a resposta de possível markdown
+            conteudo = response.text
+            if conteudo.startswith("```json"):
+                conteudo = conteudo[7:]
+            if conteudo.startswith("```"):
+                conteudo = conteudo[3:]
+            if conteudo.endswith("```"):
+                conteudo = conteudo[:-3]
             
-            resultado = json.loads(response.choices[0].message.content)
+            resultado = json.loads(conteudo.strip())
             return resultado
             
         except Exception as e:
@@ -222,7 +222,7 @@ class AnalisadorIA:
         Returns:
             Lista de recomendações priorizadas
         """
-        if not self.usar_ia or not self.client:
+        if not self.usar_ia or not self.model:
             return self._recomendacoes_inteligente_local(alunos, alertas)
             
         # Preparar dados para análise
@@ -259,17 +259,17 @@ class AnalisadorIA:
         """
         
         try:
-            response = self.client.chat.completions.create(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": "Você é um consultor educacional que retorna apenas JSON válido."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.8,
-                max_tokens=1500
-            )
+            response = self.model.generate_content(prompt)
+            # Limpar a resposta de possível markdown
+            conteudo = response.text
+            if conteudo.startswith("```json"):
+                conteudo = conteudo[7:]
+            if conteudo.startswith("```"):
+                conteudo = conteudo[3:]
+            if conteudo.endswith("```"):
+                conteudo = conteudo[:-3]
             
-            resultado = json.loads(response.choices[0].message.content)
+            resultado = json.loads(conteudo.strip())
             
             recomendacoes = []
             for rec in resultado.get("recomendacoes", []):
@@ -328,17 +328,17 @@ class AnalisadorIA:
         """
         
         try:
-            response = self.client.chat.completions.create(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": "Você é um analista preditivo educacional que retorna apenas JSON."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.5,
-                max_tokens=800
-            )
+            response = self.model.generate_content(prompt)
+            # Limpar a resposta de possível markdown
+            conteudo = response.text
+            if conteudo.startswith("```json"):
+                conteudo = conteudo[7:]
+            if conteudo.startswith("```"):
+                conteudo = conteudo[3:]
+            if conteudo.endswith("```"):
+                conteudo = conteudo[:-3]
             
-            return json.loads(response.choices[0].message.content)
+            return json.loads(conteudo.strip())
             
         except Exception as e:
             print(f"Erro na previsão: {e}")
@@ -925,7 +925,7 @@ def exemplo_uso():
     """
     
     # Configurar chave da API (em produção, usar variável de ambiente)
-    API_KEY = os.getenv("OPENAI_API_KEY", "sua-chave-aqui")
+    API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyDp_w9MPuY9_5VPl6wunwsk9Ebii9ATII4")
     
     # Inicializar sistema
     print("\n" + "="*80)
