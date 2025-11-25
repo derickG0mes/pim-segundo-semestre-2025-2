@@ -925,7 +925,7 @@ def exemplo_uso():
     """
     
     # Configurar chave da API (em produção, usar variável de ambiente)
-    API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyDp_w9MPuY9_5VPl6wunwsk9Ebii9ATII4")
+    API_KEY = os.getenv("GOOGLE_API_KEY", "sua-chave-aqui")
     
     # Inicializar sistema
     print("\n" + "="*80)
