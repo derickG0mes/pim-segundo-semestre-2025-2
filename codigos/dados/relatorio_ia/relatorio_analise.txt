@@ -2,16 +2,16 @@
 RELATÓRIO DE ANÁLISE ESCOLAR
 ================================================================================
 
-Data: 2025-11-12T00:21:48.256141
+Data: 2025-11-25T16:07:13.465076
 
-Total de alunos: 5
+Total de alunos: 11
 
 --- MÉTRICAS GERAIS ---
-Média Geral: 7.38
-Taxa de Frequência: 82.6%
-Risco de Evasão: 20.0%
+Média Geral: 7.68
+Taxa de Frequência: 86.2%
+Risco de Evasão: 9.1%
 
---- ALERTAS (2) ---
+--- ALERTAS (3) ---
 
 [CRITICO] Alto Risco de Evasão
   1 alunos identificados com padrão de risco elevado
@@ -19,22 +19,28 @@ Risco de Evasão: 20.0%
 [ATENCAO] Frequência Crítica
   1 alunos com frequência abaixo de 75%
 
+[ATENCAO] Queda de Desempenho
+  Disciplinas com média abaixo de 7.0: gestao_projetos, it_governance, sistemas, redes
+
 --- ANÁLISE IA ---
 
-O sistema apresenta bom desempenho com média geral de 7.38.
+O desempenho atual da turma apresenta uma média geral satisfatória e uma taxa de frequência razoável. No entanto, o risco de evasão requer monitoramento contínuo e ações preventivas. Uma análise mais aprofundada do histórico é necessária para identificar padrões e otimizar as estratégias de retenção.
 
---- RECOMENDAÇÕES (4) ---
+--- RECOMENDAÇÕES (5) ---
 
-1. Programa de Acompanhamento para Alunos em Risco
-   Implementar programa intensivo de mentoria para 2 alunos identificados em risco de evasão
+1. Implementar Programa de Mentoria Acadêmica
+   Criar um programa de mentoria com alunos veteranos ou profissionais da área para auxiliar os alunos em risco, especialmente nas disciplinas críticas. O foco será o suporte individualizado e o acompanhamento do progresso.
 
-2. Programa de Combate à Absenteísmo
-   1 alunos com frequência inferior a 75%
+2. Intervenção Individualizada para Risco de Evasão
+   Realizar entrevistas individuais com o aluno em alto risco de evasão para identificar as causas subjacentes (financeiras, emocionais, acadêmicas) e oferecer suporte personalizado, como aconselhamento, encaminhamento para recursos externos ou adaptação do plano de estudos.
 
-3. Monitoramento Contínuo de Indicadores
-   Implementar sistema de monitoramento em tempo real dos indicadores educacionais
+3. Estratégias de Engajamento para Frequência
+   Implementar estratégias de engajamento para aumentar a frequência do aluno com baixa frequência, como comunicação proativa com o aluno e familiares, identificação de barreiras à frequência e desenvolvimento de um plano de ação individualizado.
 
-4. Estratégia de Melhoria Contínua
-   Desenvolver plano de ação para incrementar qualidade educacional
+4. Reforço Acadêmico nas Disciplinas Críticas
+   Oferecer aulas de reforço, grupos de estudo ou tutoria individual nas disciplinas com baixo desempenho (gestao_projetos, it_governance, sistemas, redes). Adaptar o conteúdo e a metodologia para atender às necessidades específicas dos alunos.
+
+5. Revisão Curricular e Metodológica
+   Realizar uma análise crítica do currículo e das metodologias de ensino nas disciplinas críticas para identificar possíveis lacunas ou áreas de melhoria. Considerar a implementação de abordagens mais práticas e contextualizadas.
 
 ================================================================================

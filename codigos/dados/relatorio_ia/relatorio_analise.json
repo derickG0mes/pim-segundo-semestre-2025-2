@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-11-12T00:21:48.256141",
+  "timestamp": "2025-11-25T16:07:13.465076",
   "metricas_gerais": {
-    "total_alunos": 5,
-    "media_geral": 7.38,
-    "taxa_frequencia": 82.6,
-    "risco_evasao": 20.0,
+    "total_alunos": 11,
+    "media_geral": 7.68,
+    "taxa_frequencia": 86.2,
+    "risco_evasao": 9.1,
     "periodo": "atual",
-    "timestamp": "2025-11-12T00:21:48.255135"
+    "timestamp": "2025-11-25T16:07:02.163755"
   },
   "alertas": [
     {
@@ -17,7 +17,7 @@
       "alunos_afetados": [
         "2024002"
       ],
-      "timestamp": "2025-11-12T00:21:48.255306"
+      "timestamp": "2025-11-25T16:07:02.164052"
     },
     {
       "tipo": "atencao",
@@ -27,140 +27,242 @@
       "alunos_afetados": [
         "2024002"
       ],
-      "timestamp": "2025-11-12T00:21:48.255306"
+      "timestamp": "2025-11-25T16:07:02.164052"
+    },
+    {
+      "tipo": "atencao",
+      "titulo": "Queda de Desempenho",
+      "descricao": "Disciplinas com média abaixo de 7.0: gestao_projetos, it_governance, sistemas, redes",
+      "prioridade": 2,
+      "alunos_afetados": [],
+      "timestamp": "2025-11-25T16:07:02.164052"
     }
   ],
   "analise_ia": {
-    "resumo_executivo": "O sistema apresenta bom desempenho com média geral de 7.38.",
-    "status": "BOM",
+    "resumo_executivo": "O desempenho atual da turma apresenta uma média geral satisfatória e uma taxa de frequência razoável. No entanto, o risco de evasão requer monitoramento contínuo e ações preventivas. Uma análise mais aprofundada do histórico é necessária para identificar padrões e otimizar as estratégias de retenção.",
     "tendencias": [],
-    "pontos_criticos": [],
+    "pontos_criticos": [
+      "Risco de evasão em 9.1%, necessitando investigação das causas e implementação de medidas de suporte aos alunos em risco."
+    ],
     "pontos_positivos": [
-      "Média geral dentro dos padrões aceitáveis"
+      "Média geral de 7.68 indica um bom desempenho acadêmico geral.",
+      "Taxa de frequência de 86.2% demonstra um engajamento razoável dos alunos com as aulas."
     ],
     "previsoes": [
-      "Manutenção do nível atual esperado"
-    ],
-    "modo": "Análise Inteligente Local (sem IA)"
+      "Sem dados históricos suficientes, as previsões são limitadas. É crucial coletar e analisar dados de períodos anteriores para identificar padrões e tendências.",
+      "Caso o risco de evasão não seja mitigado, é possível que a taxa aumente nos próximos períodos.",
+      "O desempenho acadêmico geral pode sofrer um impacto negativo se a evasão escolar aumentar."
+    ]
   },
   "recomendacoes": [
     {
-      "titulo": "Programa de Acompanhamento para Alunos em Risco",
-      "descricao": "Implementar programa intensivo de mentoria para 2 alunos identificados em risco de evasão",
-      "categoria": "comportamental",
+      "titulo": "Implementar Programa de Mentoria Acadêmica",
+      "descricao": "Criar um programa de mentoria com alunos veteranos ou profissionais da área para auxiliar os alunos em risco, especialmente nas disciplinas críticas. O foco será o suporte individualizado e o acompanhamento do progresso.",
+      "categoria": "academico",
       "impacto_estimado": "alto",
       "acoes": [
-        "Criar parecer de acompanhamento individual",
-        "Aumentar frequência de reuniões com responsáveis",
-        "Oferecer apoio psicossocial"
+        "Recrutar mentores qualificados",
+        "Realizar workshops de capacitação para mentores",
+        "Emparelhar mentores e alunos com base em necessidades e interesses",
+        "Monitorar o progresso dos alunos mentorados e ajustar o programa conforme necessário"
       ],
       "prioridade": 1
     },
     {
-      "titulo": "Programa de Combate à Absenteísmo",
-      "descricao": "1 alunos com frequência inferior a 75%",
+      "titulo": "Intervenção Individualizada para Risco de Evasão",
+      "descricao": "Realizar entrevistas individuais com o aluno em alto risco de evasão para identificar as causas subjacentes (financeiras, emocionais, acadêmicas) e oferecer suporte personalizado, como aconselhamento, encaminhamento para recursos externos ou adaptação do plano de estudos.",
+      "categoria": "comportamental",
+      "impacto_estimado": "alto",
+      "acoes": [
+        "Agendar entrevista individual com o aluno",
+        "Analisar o histórico acadêmico e comportamental do aluno",
+        "Oferecer suporte emocional e prático",
+        "Monitorar a evolução do aluno e ajustar as intervenções conforme necessário"
+      ],
+      "prioridade": 2
+    },
+    {
+      "titulo": "Estratégias de Engajamento para Frequência",
+      "descricao": "Implementar estratégias de engajamento para aumentar a frequência do aluno com baixa frequência, como comunicação proativa com o aluno e familiares, identificação de barreiras à frequência e desenvolvimento de um plano de ação individualizado.",
       "categoria": "comportamental",
       "impacto_estimado": "medio",
       "acoes": [
-        "Comunicação com familiares",
-        "Investigação de causas de ausência",
-        "Planejamento de recuperação"
+        "Entrar em contato com o aluno e familiares para entender as causas da baixa frequência",
+        "Oferecer suporte para superar as barreiras à frequência",
+        "Desenvolver um plano de ação individualizado para aumentar a frequência",
+        "Monitorar a frequência do aluno e fornecer feedback regular"
       ],
       "prioridade": 3
     },
     {
-      "titulo": "Monitoramento Contínuo de Indicadores",
-      "descricao": "Implementar sistema de monitoramento em tempo real dos indicadores educacionais",
-      "categoria": "estrutural",
+      "titulo": "Reforço Acadêmico nas Disciplinas Críticas",
+      "descricao": "Oferecer aulas de reforço, grupos de estudo ou tutoria individual nas disciplinas com baixo desempenho (gestao_projetos, it_governance, sistemas, redes). Adaptar o conteúdo e a metodologia para atender às necessidades específicas dos alunos.",
+      "categoria": "academico",
       "impacto_estimado": "medio",
       "acoes": [
-        "Dashboard de acompanhamento",
-        "Relatórios periódicos",
-        "Alertas automatizados"
+        "Identificar os tópicos mais desafiadores em cada disciplina",
+        "Desenvolver materiais de apoio didáticos e atividades práticas",
+        "Agendar aulas de reforço em horários flexíveis",
+        "Monitorar o desempenho dos alunos nas disciplinas e ajustar as estratégias de ensino"
       ],
       "prioridade": 4
     },
     {
-      "titulo": "Estratégia de Melhoria Contínua",
-      "descricao": "Desenvolver plano de ação para incrementar qualidade educacional",
+      "titulo": "Revisão Curricular e Metodológica",
+      "descricao": "Realizar uma análise crítica do currículo e das metodologias de ensino nas disciplinas críticas para identificar possíveis lacunas ou áreas de melhoria. Considerar a implementação de abordagens mais práticas e contextualizadas.",
       "categoria": "estrutural",
-      "impacto_estimado": "medio",
+      "impacto_estimado": "baixo",
       "acoes": [
-        "Análise periódica de resultados",
-        "Feedback de stakeholders",
-        "Ajustes metodológicos"
+        "Coletar feedback dos alunos sobre o currículo e as metodologias",
+        "Analisar o desempenho dos alunos nas diferentes disciplinas",
+        "Identificar as lacunas e áreas de melhoria",
+        "Implementar novas abordagens de ensino e recursos didáticos"
       ],
       "prioridade": 5
     }
   ],
   "analise_por_turma": {
-    "2 ano, Ensino Superior": {
-      "turma": "2 ano, Ensino Superior",
+    "2 ano, Engenharia de Dados": {
+      "turma": "2 ano, Engenharia de Dados",
       "total_alunos": 2,
-      "media_geral": 7.4125,
-      "frequencia_media": 84.0,
-      "media_matematica": 7.0,
-      "media_portugues": 7.5,
-      "media_ciencias": 7.3,
-      "media_programacao": 7.85
+      "media_geral": 8.81875,
+      "frequencia_media": 92.0,
+      "media_python_avancado": 8.925,
+      "media_machine_learning": 8.85,
+      "media_big_data": 8.850000000000001,
+      "media_sql": 8.65
     },
-    "1 ano, Ensino Superior": {
-      "turma": "1 ano, Ensino Superior",
+    "1 ano, Engenharia de Software": {
+      "turma": "1 ano, Engenharia de Software",
       "total_alunos": 3,
-      "media_geral": 7.358333333333333,
-      "frequencia_media": 81.66666666666667,
-      "media_matematica": 7.333333333333333,
-      "media_portugues": 7.266666666666667,
-      "media_ciencias": 7.3999999999999995,
-      "media_programacao": 7.433333333333334
+      "media_geral": 8.258333333333333,
+      "frequencia_media": 89.33333333333333,
+      "media_programacao_c": 8.299999999999999,
+      "media_matematica": 8.266666666666667,
+      "media_estrutura_dados": 8.166666666666666,
+      "media_web": 8.299999999999999
+    },
+    "1 ano, Pós-Graduação em IA": {
+      "turma": "1 ano, Pós-Graduação em IA",
+      "total_alunos": 1,
+      "media_geral": 7.2,
+      "frequencia_media": 80.0,
+      "media_deep_learning": 7.3,
+      "media_nlp": 7.1,
+      "media_computer_vision": 7.0,
+      "media_ml_ops": 7.4
+    },
+    "2 ano, Análise e Desenvolvimento de Sistemas": {
+      "turma": "2 ano, Análise e Desenvolvimento de Sistemas",
+      "total_alunos": 3,
+      "media_geral": 7.783333333333334,
+      "frequencia_media": 89.66666666666667,
+      "media_banco_dados": 7.8,
+      "media_programacao_java": 7.6000000000000005,
+      "media_web_avancado": 7.833333333333333,
+      "media_mobile": 7.8999999999999995
+    },
+    "1 ano, Gestão de Tecnologia da Informação": {
+      "turma": "1 ano, Gestão de Tecnologia da Informação",
+      "total_alunos": 2,
+      "media_geral": 5.737500000000001,
+      "frequencia_media": 73.5,
+      "media_gestao_projetos": 5.75,
+      "media_it_governance": 6.0,
+      "media_sistemas": 5.699999999999999,
+      "media_redes": 5.5
     }
   },
   "mapa_calor": {
-    "2 ano, Ensino Superior": {
-      "matematica": 7.0,
-      "portugues": 7.5,
-      "ciencias": 7.3,
-      "programacao": 7.85
+    "2 ano, Engenharia de Dados": {
+      "python_avancado": 8.925,
+      "machine_learning": 8.85,
+      "big_data": 8.850000000000001,
+      "sql": 8.65
     },
-    "1 ano, Ensino Superior": {
-      "matematica": 7.333333333333333,
-      "portugues": 7.266666666666667,
-      "ciencias": 7.3999999999999995,
-      "programacao": 7.433333333333334
+    "1 ano, Engenharia de Software": {
+      "programacao_c": 8.299999999999999,
+      "matematica": 8.266666666666667,
+      "estrutura_dados": 8.166666666666666,
+      "web": 8.299999999999999
+    },
+    "1 ano, Pós-Graduação em IA": {
+      "deep_learning": 7.3,
+      "nlp": 7.1,
+      "computer_vision": 7.0,
+      "ml_ops": 7.4
+    },
+    "2 ano, Análise e Desenvolvimento de Sistemas": {
+      "banco_dados": 7.8,
+      "programacao_java": 7.6000000000000005,
+      "web_avancado": 7.833333333333333,
+      "mobile": 7.8999999999999995
+    },
+    "1 ano, Gestão de Tecnologia da Informação": {
+      "gestao_projetos": 5.75,
+      "it_governance": 6.0,
+      "sistemas": 5.699999999999999,
+      "redes": 5.5
     }
   },
   "distribuicao_risco": {
-    "baixo": 60.0,
-    "medio": 20.0,
-    "alto": 20.0
+    "baixo": 63.63636363636363,
+    "medio": 27.27272727272727,
+    "alto": 9.090909090909092
   },
   "alunos_atencao": [
     {
       "id": "12345656",
       "nome": "Felipe Duarte Almeida",
-      "turma": "2 ano, Ensino Superior",
+      "turma": "2 ano, Análise e Desenvolvimento de Sistemas",
       "notas": {
-        "matematica": 6.5,
-        "portugues": 7.0,
-        "ciencias": 6.8,
-        "programacao": 7.5
+        "banco_dados": 6.8,
+        "programacao_java": 6.5,
+        "web_avancado": 7.0,
+        "mobile": 7.5
       },
-      "frequencia": 78.0,
+      "frequencia": 92.0,
       "risco_evasao": "medio"
     },
     {
       "id": "2024002",
-      "nome": "Carlos Alberto",
-      "turma": "1 ano, Ensino Superior",
+      "nome": "Carlos Alberto Costa",
+      "turma": "1 ano, Gestão de Tecnologia da Informação",
       "notas": {
-        "matematica": 5.0,
-        "portugues": 5.5,
-        "ciencias": 5.2,
-        "programacao": 4.8
+        "gestao_projetos": 5.0,
+        "it_governance": 5.2,
+        "sistemas": 5.1,
+        "redes": 4.8
       },
       "frequencia": 65.0,
       "risco_evasao": "alto"
+    },
+    {
+      "id": "2024006",
+      "nome": "Gabriel Pereira Luz",
+      "turma": "1 ano, Gestão de Tecnologia da Informação",
+      "notas": {
+        "gestao_projetos": 6.5,
+        "it_governance": 6.8,
+        "sistemas": 6.3,
+        "redes": 6.2
+      },
+      "frequencia": 82.0,
+      "risco_evasao": "medio"
+    },
+    {
+      "id": "2024008",
+      "nome": "Lucas Campos Miranda",
+      "turma": "1 ano, Pós-Graduação em IA",
+      "notas": {
+        "deep_learning": 7.3,
+        "nlp": 7.1,
+        "computer_vision": 7.0,
+        "ml_ops": 7.4
+      },
+      "frequencia": 80.0,
+      "risco_evasao": "medio"
     }
   ],
-  "total_alunos_processados": 5
+  "total_alunos_processados": 11
 }
